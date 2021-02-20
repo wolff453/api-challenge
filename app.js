@@ -28,7 +28,7 @@ function enviar(){
     error2.style.display="none"
 
    }
-   if(send.length < 13){
+   if(send.length < 5){
        error3.style.display="block"
        return false
    }else{
