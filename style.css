@@ -91,7 +91,7 @@ header{
    text-align: center;
      display: none;
     position: fixed; 
-    top: 62px;
+    top: 78px;
     z-index: 1;     
       
 }
@@ -163,7 +163,7 @@ header{
     place-items: center;
      margin-top: 90px;
       position: relative;
-    top: 80px;
+    top: 100px;
 }
  
 .purple{
@@ -592,3 +592,9 @@ footer{
         width: 320px;
      }
 }
+
+ @media(min-width:1000px){
+        .menu-mob{
+            display: none;
+        }
+    }
