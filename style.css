@@ -27,6 +27,13 @@ header{
      margin: 0 auto;
      display: none;
  }
+.hamb{
+    cursor:pointer;
+}
+.close{
+    cursor:pointer;
+
+}
 .navbar-1 ul{
     display: flex;
 }
