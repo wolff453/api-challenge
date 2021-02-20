@@ -598,6 +598,10 @@ footer{
        .creates{
         width: 320px;
      }
+      .copy{
+        padding-left: 15px;
+        padding-right: 15px;
+     }
 }
 
  @media(min-width:1000px){
