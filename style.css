@@ -371,6 +371,12 @@ footer{
  .svg{
     fill: white;
  }
+.image-loading{
+    width: 50px;
+     display: flex;
+     margin: 0 auto;
+     display: none;
+ }
  .copyright{
      text-align: center;
      background: var(--VeryDarkViolet);
