@@ -32,16 +32,19 @@ let copy = document.querySelector(".copy")
                error3.style.display="block"
                return false
            }else{
-            error3.style.display="none"
-
+                error3.style.display="none"
+                let loading = document.querySelector(".image-loading")
+                loading.style.display="block"
            }
             setTimeout(()=>{
+                let loading = document.querySelector(".image-loading")
                 let copy = document.querySelector(".copy")
                 let create= document.querySelector(".creates")
                 create.classList.remove("none")
                 copy.style.display="block"
-
                 copy2.style.display= "none"
+                loading.style.display="none"
+
 
              }, 5000)
             var send = document.querySelector(".send").value
