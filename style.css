@@ -616,3 +616,9 @@ footer{
             display: none;
         }
     }
+   @media(max-width:1600px){
+        .meio{
+            margin-left: 50px;
+        }
+      
+    }
